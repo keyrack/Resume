@@ -25,14 +25,6 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Ottawa,CA&appid=a985024
 	
 document.addEventListener('DOMContentLoaded', function() {
   //This function is called after the browser has loaded the web page
-
   //add listener to buttons
   document.getElementById('toggle-button').addEventListener('click', toggleMode)
-  document.getElementById('connect_button').addEventListener('click', addUser)
-  document.getElementById('clear_button').addEventListener('click', clear)
-
-
-  //add keyboard handler for the document as a whole, not separate elements.
-  document.addEventListener('keydown', handleKeyDown)
-  
 })
